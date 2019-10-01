@@ -26,8 +26,8 @@ def load_library(file_path)
   emoticons
  
   emoticons_hash = {
-    get_meaning => {},
-    get_emoticon => {}
+    "get_meaning" => {},
+    "get_emoticon" => {}
   }
   
   emoticons.each do |meaning, symbols|
