@@ -6,7 +6,7 @@ def load_library
   # code goes here
     
   emoticons =
-  YAML.load_file(.lib/emoticons.yml)
+  YAML.load_file(..lib/emoticons.yml)
     
   puts emoticons.inspect
 end
