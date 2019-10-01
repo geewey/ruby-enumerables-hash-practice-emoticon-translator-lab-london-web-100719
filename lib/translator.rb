@@ -30,10 +30,8 @@ def load_library(file_path)
   
   emoticons_hash
   
-  emoticons.each_with_index do |meaning, idx|
-    english => 
-    japanese =>
-    japanese_emoticon 
+  emoticons.each do |meaning, symbols|
+    emoticons_hash[meaning] 
   end
   
   # binding.pry
