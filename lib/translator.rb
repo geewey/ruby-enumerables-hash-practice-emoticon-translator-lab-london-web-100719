@@ -23,7 +23,6 @@ def load_library(file_path)
   end
   
   
-  
   emos_hash
 end
   
