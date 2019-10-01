@@ -8,7 +8,11 @@ def load_library(file_path)
   emoticons =
   YAML.load_file("./" + "#{file_path}")
   
-  emoticons_hash = 
+  emoticons_hash = {
+    
+    japanese_emoticon[]
+  }
+  
   emoticons
   binding.pry
   # emoticons_hash = {
