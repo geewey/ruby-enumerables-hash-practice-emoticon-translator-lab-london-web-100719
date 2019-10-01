@@ -22,18 +22,20 @@ def load_library(file_path)
 # "surprised"=>[":o", "o_O"],
 # "wink"=>[";)", "(^_-)"]}
  
+  emoticons
+ 
   emoticons_hash = {
     get_meaning = {},
     get_emoticon = {}
   }
-  emoticons.each do |meaning, symbols|
-    
-    english => 
-    japanese =>
-    japanese_emoticon[]
-  }
   
-  emoticons
+  # emoticons.each do |meaning, symbols|
+  #   english => 
+  #   japanese =>
+  #   japanese_emoticon[]
+  # }
+  
+  
   binding.pry
   # emoticons_hash = {
   #   get_meaning = {},
