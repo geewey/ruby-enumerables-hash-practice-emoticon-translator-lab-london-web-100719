@@ -1,20 +1,29 @@
 # require modules here
 require "yaml"
+require "pry"
 
 def load_library(file_path)
-  emoticons = YAML.load_file(file_path)
-  
-  new_hash = {
-    'get_meaning' => {},
-    'get_emoticon' => {}
+  # code goes here
+  emoticons = YAML.load_file("./" + "#{file_path}")
+ 
+  emos_hash = {
+    "get_meaning" => {},
+    "get_emoticon" => {}
   }
-
-  emoticons.each do |key,value|
-    new_hash['get_emoticon'][value[0]] = emoticons[key][1]
-    new_hash['get_meaning'][value[1]] = key
+  
+  # binding.pry
+  
+  emoticons.each do |meaning, emoticon|
+    emos_hash["get_meaning"][emoticon][1] = emos_hash[meaning]
+    emos_hash["get_emoticon"][emoticon][0] = emos_hash[emoticon][1]
+  
+    # emos_hash[meaning]  #=> meaning “angel”
+    # emos_hash[emoticon][1]  #=> japanese emoticon "☜(⌒▽⌒)☞"
+    # emos_hash[emoticon][0]  #=> english emoticon "O:)"
   end
-
-  new_hash
+  
+  
+  emos_hash
 end
   
 def get_japanese_emoticon(file_path, emoticon)
