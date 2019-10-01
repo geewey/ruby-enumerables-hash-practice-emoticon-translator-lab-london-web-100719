@@ -2,11 +2,11 @@
 require "yaml"
 require "pry"
 
-def load_library(./lib/file_path)
+def load_library(file_path)
   # code goes here
     
   emoticons =
-  YAML.load_file("./" + "#{file_path}")
+  YAML.load_file("./lib/#{file_path}")
 
 =begin
   emoticons = {"angel"=>["O:)", "☜(⌒▽⌒)☞"],
