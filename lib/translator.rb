@@ -23,8 +23,8 @@ def load_library(file_path)
 # "wink"=>[";)", "(^_-)"]}
  
   emoticons_hash = {
-    new_meaning = {},
-    new_emoticons = {}
+    get_meaning = {},
+    get_emoticon = {}
   }
   emoticons.each do |meaning, symbols|
     
