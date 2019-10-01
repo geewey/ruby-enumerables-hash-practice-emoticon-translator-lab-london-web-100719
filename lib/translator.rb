@@ -25,8 +25,8 @@ def load_library(file_path)
   emoticons
  
   emoticons_hash = {
-    get_meaning = {},
-    get_emoticon = {}
+    get_meaning => {},
+    get_emoticon => {}
   }
   
   # emoticons.each do |meaning, symbols|
@@ -35,12 +35,7 @@ def load_library(file_path)
   #   japanese_emoticon[]
   # }
   
-  
   binding.pry
-  # emoticons_hash = {
-  #   get_meaning = {},
-  #   get_japanese_emoticon = {}
-  # }
 end
   
 def get_japanese_emoticon(file_path, emoticon)
