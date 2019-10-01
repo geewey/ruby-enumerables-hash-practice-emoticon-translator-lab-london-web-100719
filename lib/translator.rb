@@ -11,6 +11,8 @@ def load_library(file_path)
     "get_emoticon" => {}
   }
   
+  binding.pry
+  
   emoticons.each do |meaning, emoticon|
     emos_hash["get_meaning"] = {emos_hash[emoticon][1] => emos_hash[meaning]}
     emos_hash["get_emoticon"] = {emos_hash[emoticon][0] => emos_hash[emoticon][1]}
@@ -20,7 +22,7 @@ def load_library(file_path)
     # emos_hash[emoticon][0]  #=> english emoticon "O:)"
   end
   
-  # binding.pry
+  
   
   emos_hash
 end
