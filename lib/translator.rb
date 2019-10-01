@@ -23,6 +23,19 @@ def load_library(file_path)
   end
   
   emos_hash
+  
+=begin
+  emos_hash = {
+    "get_meaning" => {
+  	    "☜(⌒▽⌒)☞" => "angel" #=> "Japanese emoticons" => “meaning"
+      },
+
+    "get_emoticon" => {
+  	    "O:)" => "☜(⌒▽⌒)☞"  #=>	“English emoticons" => “Japanese emoticons"
+      }
+  }
+=end
+  
 end
   
 def get_japanese_emoticon(file_path, emoticon)
