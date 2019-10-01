@@ -31,11 +31,11 @@ def load_library(file_path)
     get_emoticon => {}
   }
   
-  # emoticons.each do |meaning, symbols|
-  #   english => 
-  #   japanese =>
-  #   japanese_emoticon[]
-  # }
+  emoticons.each do |meaning, symbols|
+    # english => 
+    # japanese =>
+    # japanese_emoticon 
+  end
   
   binding.pry
 end
