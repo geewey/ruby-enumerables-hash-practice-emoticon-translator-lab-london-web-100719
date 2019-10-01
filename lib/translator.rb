@@ -9,7 +9,8 @@ def load_library(file_path)
   YAML.load_file("./" + "#{file_path}")
   
   emoticons_hash = {
-    
+    english => 
+    japanese =>
     japanese_emoticon[]
   }
   
