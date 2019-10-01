@@ -16,8 +16,8 @@ def load_library(file_path)
   # binding.pry
   
   emoticons.each do |meaning, emoticon|
-    emos_hash["get_meaning"] => meaning
-    emos_hash["get_emoticon"] = 
+    emos_hash["get_meaning"][emoticon[1]] => meaning
+    emos_hash["get_emoticon"][] = 
     
     # meaning  #=> meaning “angel”
     # emoticon[1]  #=> japanese emoticon "☜(⌒▽⌒)☞"
