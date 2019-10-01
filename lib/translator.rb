@@ -23,22 +23,20 @@ def load_library(file_path)
   "wink"=>[";)", "(^_-)"]}
 =end
  
-  emoticons_hash = {
+  emos_hash = {
     "get_meaning" => {},
     "get_emoticon" => {}
   }
   
-  emoticons_hash
-  
   emoticons.each do |meaning, symbols|
-    emoticons_hash[meaning] = # meaning
-    emoticons_hash[symbols][1] #japanese emoticon
-    emoticons_hash[symbols][0] # english emoticon
+    emos_hash[meaning] = # meaning
+    emos_hash[symbols][1] #japanese emoticon
+    emos_hash[symbols][0] # english emoticon
   end
   
   # binding.pry
   
-  emoticons_hash
+  emos_hash
 end
   
 def get_japanese_emoticon(file_path, emoticon)
