@@ -30,6 +30,8 @@ def load_library(file_path)
     "get_emoticon" => {}
   }
   
+  emoticons_hash
+  
   emoticons.each do |meaning, symbols|
     # english => 
     # japanese =>
