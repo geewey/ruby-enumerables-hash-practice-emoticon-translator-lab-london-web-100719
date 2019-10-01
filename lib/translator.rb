@@ -23,8 +23,6 @@ def load_library(file_path)
   "wink"=>[";)", "(^_-)"]}
 =end
  
-  emoticons
- 
   emoticons_hash = {
     "get_meaning" => {},
     "get_emoticon" => {}
@@ -32,13 +30,15 @@ def load_library(file_path)
   
   emoticons_hash
   
-  # emoticons.each do |meaning, symbols|
-    # english => 
-    # japanese =>
-    # japanese_emoticon 
-  # end
+  emoticons.each_with_index do |meaning, idx|
+    english => 
+    japanese =>
+    japanese_emoticon 
+  end
   
   # binding.pry
+  
+  emoticons_hash
 end
   
 def get_japanese_emoticon(file_path, emoticon)
