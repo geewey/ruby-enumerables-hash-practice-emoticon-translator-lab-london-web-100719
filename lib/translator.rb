@@ -32,8 +32,9 @@ def load_library(file_path)
     emos_hash["get_meaning"] => {emos_hash[symbols][1] => emos_hash[meaning]}
     emos_hash["get_emoticon"] => {emos
     emos_hash[meaning]  #=> meaning “angel”
-    emos_hash[symbols][1] #japanese emoticon
-    emos_hash[symbols][0] # english emoticon
+    # emos_hash[symbols][1]  #=> japanese emoticon "☜(⌒▽⌒)☞"
+    # emos_hash[symbols][0]  #=> english emoticon "O:)"
+
   end
   
   # binding.pry
