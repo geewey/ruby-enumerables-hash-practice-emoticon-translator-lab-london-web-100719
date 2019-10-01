@@ -13,13 +13,13 @@ def load_library(file_path)
     "get_emoticon" => {}
   }
   
-  emoticons.each do |meaning, emoticon|
-    emos_hash["get_meaning"][emoticon[1]] = meaning
-    emos_hash["get_emoticon"][emoticon[0]] = emoticon[meaning][1]
+  emoticons.each do |meaning, array|
+    emos_hash["get_meaning"][array[1]] = meaning
+    emos_hash["get_emoticon"][array[0]] = array[1]
     
     # meaning  #=> meaning “angel”
-    # emoticon[1]  #=> japanese emoticon "☜(⌒▽⌒)☞"
-    # emoticon[0]  #=> english emoticon "O:)"
+    # array[1]  #=> japanese emoticon "☜(⌒▽⌒)☞"
+    # array[0]  #=> english emoticon "O:)"
   end
   
   emos_hash
