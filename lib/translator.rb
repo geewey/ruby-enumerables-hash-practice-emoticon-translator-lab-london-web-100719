@@ -43,11 +43,14 @@ def get_japanese_emoticon(file_path, emoticon)
   # take a traditional Western emoticon
   # like :) and translate it to its Japanese version
   translate = load_library(file_path)[emoticon]
-  
+  if !translate
+    return "You done messed up"
+  end
 end
   
 def get_english_meaning(file_path, emoticon)
   # code goes here
+  # takes a Japanese emoticon and returns its meaning in English
   # load_library(file_path)
   
 end
