@@ -18,7 +18,6 @@ def load_library(file_path)
     # emos_hash[meaning]  #=> meaning “angel”
     # emos_hash[emoticon][1]  #=> japanese emoticon "☜(⌒▽⌒)☞"
     # emos_hash[emoticon][0]  #=> english emoticon "O:)"
-
   end
   
   # binding.pry
