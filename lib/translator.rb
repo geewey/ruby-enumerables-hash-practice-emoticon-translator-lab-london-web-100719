@@ -32,11 +32,11 @@ def load_library(file_path)
   
   emoticons_hash
   
-  emoticons.each do |meaning, symbols|
+  # emoticons.each do |meaning, symbols|
     # english => 
     # japanese =>
     # japanese_emoticon 
-  end
+  # end
   
   # binding.pry
 end
