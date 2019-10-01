@@ -40,6 +40,7 @@ end
   
 def get_japanese_emoticon(file_path, emoticon)
   # code goes here
+  # take a traditional Western emoticon, like :) and translate it to its Japanese version
   translate = load_library(file_path)[emoticon]
   
 end
