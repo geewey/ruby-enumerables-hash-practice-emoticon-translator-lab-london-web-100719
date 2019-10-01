@@ -31,7 +31,9 @@ def load_library(file_path)
   emoticons_hash
   
   emoticons.each do |meaning, symbols|
-    emoticons_hash[meaning] 
+    emoticons_hash[meaning] = # meaning
+    emoticons_hash[symbols][1] #japanese emoticon
+    emoticons_hash[symbols][0] # english emoticon
   end
   
   # binding.pry
