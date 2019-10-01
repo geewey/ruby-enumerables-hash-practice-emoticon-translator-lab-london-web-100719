@@ -53,6 +53,7 @@ end
 def get_english_meaning(file_path, emoticon)
   # code goes here
   # takes a Japanese emoticon and returns its meaning in English
-  # load_library(file_path)
-  
+  meaning = load_library(file_path)["get_meaning"][emoticon]
+  if !meaning
+    return "Sorry, thta emoticon wasnot"
 end
